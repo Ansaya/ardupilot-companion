@@ -1,0 +1,7 @@
+[submodule "mavlink-router"]
+	path = mavlink-router
+	url = https://github.com/mavlink-router/mavlink-router.git
+[submodule "libqmi"]
+	path = libqmi
+	url = https://github.com/freedesktop/libqmi.git
+	branch = main
