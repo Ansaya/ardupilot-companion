@@ -38,6 +38,10 @@ if [[ -z $if_name ]]; then
     exit -3
 fi
 
+echo " => Installing udhcpc"
+apt update
+apt install -y udhcpc
+
 echo " => Writing QMI configuration file to '$qmi_conf'"
 cat > $qmi_conf << EOF
 APN=$APN
